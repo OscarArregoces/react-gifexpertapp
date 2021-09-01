@@ -1,0 +1,71 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  padding: 60px;
+  background: rgb(16,50,134);
+background: linear-gradient(83deg, rgba(16,50,134,1) 0%, rgba(125,125,231,1) 52%, rgba(255,0,172,1) 100%);
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  color: gray;
+}
+.car-grid{
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.301);
+  padding: 30px;
+  /* border: 1px black solid; */
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card{
+  width: 300;
+  height: 200px;
+  align-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background: #8f8c8c91; 
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;  
+}
+
+.card p{
+  margin: 5px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: rgb(124, 10, 6);
+  padding: 5px;
+  text-align: center;
+
+}
+
+.card img{
+  max-height: 170px;
+}
+
+img{
+  width: 100%;
+  height: 70%;
+}
+
+h3{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: rgb(230, 226, 26);
+}
+
+h2{
+  color: rgb(75, 12, 12);
+}
+
+h4{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: rgb(17, 199, 26);
+}
